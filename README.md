@@ -74,7 +74,7 @@ drawtrianglecanvas example
 
 
 
-drawtrianglecanvas example 
+footerbuttons example 
 
 
 
