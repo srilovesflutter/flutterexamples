@@ -45,4 +45,146 @@ List<Choice> choices = const <Choice>[
       title: 'Mac Pro',
       date: '1 June 2018',
       description:
-          'Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a serie
+          'Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.Mac Pro is a series of workstation and server computer cases designed, manufactured and sold by Apple Inc. since 2006. The Mac Pro, in most configurations and in terms of speed and performance, is the most powerful computer that Apple offers.',
+      imglink:
+          'https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2017/01/mac-pro-2-concept-image.png?resize=1000%2C500&quality=82&strip=all&ssl=1'),
+];
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final title = "Fluttercentral";
+
+    return Scaffold(
+        appBar: AppBar(
+          title: Text(title),
+        ),
+        body: new ListView(
+            shrinkWrap: true,
+            padding: const EdgeInsets.all(20.0),
+            children: List.generate(choices.length, (index) {
+              return Center(
+                child: ChoiceCard(choice: choices[index], item: choices[index]),
+              );
+            })));
+  }
+}
+
+class Choice {
+  final int id;
+  final String title;
+  final String date;
+  final String description;
+  final String imglink;
+
+  const Choice(
+      {this.id, this.title, this.date, this.description, this.imglink});
+}
+
+class ChoiceCard extends StatelessWidget {
+  const ChoiceCard(
+      {Key key,
+      this.choice,
+      this.onTap,
+      @required this.item,
+      this.selected: false})
+      : super(key: key);
+
+  final Choice choice;
+  final VoidCallback onTap;
+  final Choice item;
+  final bool selected;
+
+  @override
+  Widget build(BuildContext context) {
+    TextStyle textStyle = Theme.of(context).textTheme.display1;
+    if (selected)
+      textStyle = textStyle.copyWith(color: Colors.lightGreenAccent[400]);
+    return FlatButton(
+      onPressed: () {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => ArticleReadPage(index: choices.indexOf(choice))));
+      },
+      child: Card(
+          color: Colors.white,
+          child: Column(
+            children: <Widget>[
+              new Container(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Image.network(choice.imglink)),
+              new Container(
+                padding: const EdgeInsets.all(10.0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(choice.title,
+                        style: Theme.of(context).textTheme.title),
+                    Text(choice.date,
+                        style: TextStyle(color: Colors.black.withOpacity(0.5))),
+                    Text(choice.description.substring(0, 100) + '...'),
+                  ],
+                ),
+              )
+            ],
+            crossAxisAlignment: CrossAxisAlignment.start,
+          )),
+    );
+  }
+}
+
+class ArticleReadPage extends StatelessWidget {
+  final int index;
+
+  const ArticleReadPage({Key key, this.index}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: ChoiceCardRead(choice: choices[index]),
+    );
+  }
+}
+
+class ChoiceCardRead extends StatelessWidget {
+  const ChoiceCardRead(
+      {Key key,
+      this.choice})
+      : super(key: key);
+
+  final Choice choice;
+
+  @override
+  Widget build(BuildContext context) {
+
+    return SingleChildScrollView (
+          child: Container(
+        child: Card(
+            color: Colors.white,
+            child: Column(
+              children: <Widget>[
+                new Container(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Image.network(choice.imglink)),
+                new Container(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(choice.title, style: Theme.of(context).textTheme.title),
+                      Text(choice.date,
+                          style: TextStyle(color: Colors.black.withOpacity(0.5))),
+                      Text(choice.description),
+                    ],
+                  ),
+                )
+              ],
+              crossAxisAlignment: CrossAxisAlignment.start,
+            )),
+      ),
+    );
+  }
+}
