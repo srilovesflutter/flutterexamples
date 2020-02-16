@@ -8,3 +8,57 @@ animatedicon example
 ![animatedicon] 
 
 [animatedicon]: Images/animatedicon_output.gif
+
+
+animatedpadding example
+
+![animatedpadding] 
+
+[animatedpadding]: Images/animatedicon_output.gif
+
+
+animatedpositioned example
+
+
+![animatedpositioned] 
+
+[animatedpositioned]: Images/animatedpositioned_output.gif
+
+
+
+
+animatedswitcher example
+
+
+![animatedswitcher] 
+
+[animatedswitcher]: Images/animatedswitcher_output.gif
+
+
+
+bottomnavigationbar example
+
+
+![bottomnavigationbar] 
+
+[bottomnavigationbar]: Images/bottomnavigationbar_output.gif
+
+
+
+constrainedbox example
+
+
+![constrainedbox] 
+
+[constrainedbox]: Images/constrainedbox_output.PNG
+
+
+
+datepicker example 
+
+
+
+![datepicker] 
+
+[datepicker]: Images/datepicker_output.gif
+
