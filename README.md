@@ -14,7 +14,7 @@ animatedpadding example
 
 ![animatedpadding] 
 
-[animatedpadding]: Images/animatedicon_output.gif
+[animatedpadding]: Images/animatedpadding_output.gif
 
 
 animatedpositioned example
