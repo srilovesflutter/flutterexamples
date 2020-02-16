@@ -70,7 +70,7 @@ drawtrianglecanvas example
 
 ![drawtrianglecanvas] 
 
-[drawtrianglecanvas]: Images/drawtrianglecanvas.gif
+[drawtrianglecanvas]: Images/drawtrianglecanvas.PNG
 
 
 
@@ -80,7 +80,7 @@ drawtrianglecanvas example
 
 ![footerbuttons] 
 
-[footerbuttons]: Images/footerbuttons.gif
+[footerbuttons]: Images/footerbuttons.PNG
 
 
 horizontallistview example 
