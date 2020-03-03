@@ -1,6 +1,8 @@
 # flutterexamples
 Here you can find my flutter examples. I've also written number of articles for the same on https://fluttercentral.com/
 
+# Show Support
+
 Don't forget to star ⭐ the repo 😉, it's FREE.
 
 animatedicon example
