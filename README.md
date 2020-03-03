@@ -5,7 +5,7 @@ Here you can find my flutter examples. I've also written number of articles for 
 
 Don't forget to star ⭐ the repo 😉, it's FREE.
 
-Video on how to run this examples after your setup flutter.
+Video on how to run this examples after your setup flutter. Subscribe to the channel.
 
 [![Click here](https://i9.ytimg.com/vi/rv6jMlH0Jho/mq1.jpg?sqp=CN319vIF&rs=AOn4CLAMyZktxFbvhFxDOH_Ucq11hrTMhA)](https://www.youtube.com/watch?v=rv6jMlH0Jho)
 
