@@ -1,11 +1,11 @@
 # flutterexamples
-This repository is a Startup pack for new flutter developers. 
+Here is your flutter startup pack with basic programs. enjoy.. 
 
 I've also written number of articles for the same on https://fluttercentral.com/
 
 # Show Support
 
-Don't forget to star ⭐ the repo 😉, it's FREE.
+Don't forget to star ⭐ the repo 😉, it's completely FREE.
 
 Video on how to run this examples after your setup flutter. Subscribe to the channel.
 
