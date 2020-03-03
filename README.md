@@ -40,4 +40,5 @@ Some Sample output: There are number of other examples added and those screensho
 [rotationtransitionwidget]: Images/rotationtransitionwidget.gif
 [splashscreen]: Images/splashscreen.gif
 
-
+# and many more...
+Don't forget to star ⭐ the repo 😉, it's completely FREE.
