@@ -9,7 +9,7 @@ Don't forget to star ⭐ the repo 😉, it's completely FREE.
 
 Video on how to run this examples after your setup flutter. Subscribe to the channel.
 
-[![Click here](https://i9.ytimg.com/vi/rv6jMlH0Jho/mq1.jpg?sqp=CN319vIF&rs=AOn4CLAMyZktxFbvhFxDOH_Ucq11hrTMhA)](https://www.youtube.com/watch?v=rv6jMlH0Jho)
+https://www.youtube.com/watch?v=rv6jMlH0Jho
 
 Some Sample output: There are number of other examples added and those screenshots are not added. But the name of the project is added appropriately. 
 
