@@ -13,9 +13,10 @@ https://www.youtube.com/watch?v=rv6jMlH0Jho
 
 Some Sample output: There are number of other examples added and those screenshots are not added. But the name of the project is added appropriately. 
 
-![Circlefilling] ![animatedicon] ![animatedpadding] ![animatedpositioned] ![animatedswitcher] ![bottomnavigationbar] ![constrainedbox] ![datepicker] ![drawtrianglecanvas] ![footerbuttons] ![horizontallistview] ![indexedstack] ![limitedboxwidget] ![listviewimages] ![listviewitemclick] ![listviewselectitems] ![listviewselectitemtrailingicon] ![listviewselectitemtrailingiconappbar] ![nestedlistview] ![pageviewwidget] ![persistentbottomsheet] ![reorderablelistview] ![rotationtransitionwidget] ![splashscreen] 
+![clippath] ![circlefilling] ![animatedicon] ![animatedpadding] ![animatedpositioned] ![animatedswitcher] ![bottomnavigationbar] ![constrainedbox] ![datepicker] ![drawtrianglecanvas] ![footerbuttons] ![horizontallistview] ![indexedstack] ![limitedboxwidget] ![listviewimages] ![listviewitemclick] ![listviewselectitems] ![listviewselectitemtrailingicon] ![listviewselectitemtrailingiconappbar] ![nestedlistview] ![pageviewwidget] ![persistentbottomsheet] ![reorderablelistview] ![rotationtransitionwidget] ![splashscreen] 
 
-[Circlefilling]: Images/circlefilling.gif
+[clippath]: Images/clippath.PNG
+[circlefilling]: Images/circlefilling.gif
 [animatedicon]: Images/animatedicon.gif
 [animatedpadding]: Images/animatedpadding.gif
 [animatedpositioned]: Images/animatedpositioned.gif
