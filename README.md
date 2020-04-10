@@ -7,6 +7,8 @@ I've also written number of articles for the same on https://fluttercentral.com/
 
 Don't forget to star ⭐ the repo 😉, it's completely FREE.
 
+If you wish to donate, support me through beerpay.. https://beerpay.io/srilovesflutter/flutterexamples
+
 Video on how to run this examples after your setup flutter. Subscribe to the channel.
 
 https://www.youtube.com/watch?v=rv6jMlH0Jho
