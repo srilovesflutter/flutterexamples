@@ -13,33 +13,34 @@ https://www.youtube.com/watch?v=rv6jMlH0Jho
 
 Some Sample output: There are number of other examples added and those screenshots are not added. But the name of the project is added appropriately. 
 
-![clippath] ![circlefilling] ![animatedicon] ![animatedpadding] ![animatedpositioned] ![animatedswitcher] ![bottomnavigationbar] ![constrainedbox] ![datepicker] ![drawtrianglecanvas] ![footerbuttons] ![horizontallistview] ![indexedstack] ![limitedboxwidget] ![listviewimages] ![listviewitemclick] ![listviewselectitems] ![listviewselectitemtrailingicon] ![listviewselectitemtrailingiconappbar] ![nestedlistview] ![pageviewwidget] ![persistentbottomsheet] ![reorderablelistview] ![rotationtransitionwidget] ![splashscreen] 
 
-[clippath]: Images/clippath.PNG
-[circlefilling]: Images/circlefilling.gif
-[animatedicon]: Images/animatedicon.gif
-[animatedpadding]: Images/animatedpadding.gif
-[animatedpositioned]: Images/animatedpositioned.gif
-[animatedswitcher]: Images/animatedswitcher.gif
-[bottomnavigationbar]: Images/bottomnavigationbar.gif
-[constrainedbox]: Images/constrainedbox.PNG
-[datepicker]: Images/datepicker.gif
-[drawtrianglecanvas]: Images/drawtrianglecanvas.PNG
-[footerbuttons]: Images/footerbuttons.PNG
-[horizontallistview]: Images/horizontallistview.gif
-[indexedstack]: Images/indexedstack.gif
-[limitedboxwidget]: Images/limitedboxwidget.gif
-[listviewimages]: Images/listviewimages.gif
-[listviewitemclick]: Images/listviewitemclick.gif
-[listviewselectitems]: Images/listviewselectitems.gif
-[listviewselectitemtrailingicon]: Images/listviewselectitemtrailingicon.gif
-[listviewselectitemtrailingiconappbar]: Images/listviewselectitemtrailingiconappbar.gif
-[nestedlistview]: Images/nestedlistview.gif
-[pageviewwidget]: Images/pageviewwidget.gif
-[persistentbottomsheet]: Images/persistentbottomsheet.gif
-[reorderablelistview]: Images/reorderablelistview.gif
-[rotationtransitionwidget]: Images/rotationtransitionwidget.gif
-[splashscreen]: Images/splashscreen.gif
+
+<img src="Images/clippath.PNG" height="300em" />
+<img src="Images/circlefilling.gif" height="300em" />
+<img src="Images/animatedicon.gif" height="300em" />
+<img src="Images/animatedpadding.gif" height="300em" />
+<img src="Images/animatedpositioned.gif" height="300em" />
+<img src="Images/animatedswitcher.gif" height="300em" />
+<img src="Images/bottomnavigationbar.gif" height="300em" />
+<img src="Images/constrainedbox.PNG" height="300em" />
+<img src="Images/datepicker.gif" height="300em" />
+<img src="Images/drawtrianglecanvas.PNG" height="300em" />
+<img src="Images/footerbuttons.PNG" height="300em" />
+<img src="Images/horizontallistview.gif" height="300em" />
+<img src="Images/indexedstack.gif" height="300em" />
+<img src="Images/limitedboxwidget.gif" height="300em" />
+<img src="Images/listviewimages.gif" height="300em" />
+<img src="Images/listviewitemclick.gif" height="300em" />
+<img src="Images/listviewselectitems.gif" height="300em" />
+<img src="Images/listviewselectitemtrailingicon.gif" height="300em" />
+<img src="Images/listviewselectitemtrailingiconappbar.gif" height="300em" />
+<img src="Images/nestedlistview.gif" height="300em" />
+<img src="Images/pageviewwidget.gif" height="300em" />
+<img src="Images/persistentbottomsheet.gif" height="300em" />
+<img src="Images/reorderablelistview.gif" height="300em" />
+<img src="Images/rotationtransitionwidget.gif" height="300em" />
+<img src="Images/splashscreen.gif" height="300em" />
 
 # and many more...
+
 Don't forget to star ⭐ the repo 😉, it's completely FREE.
