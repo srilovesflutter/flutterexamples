@@ -7,7 +7,7 @@ class MyApp extends StatefulWidget {
   _MyAppState createState() => _MyAppState();
 }
 
-class _MyAppState extends State {
+class _MyAppState extends State<MyApp> {
   double padValue = 1;
   @override
   Widget build(BuildContext context) {
