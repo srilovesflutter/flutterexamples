@@ -13,6 +13,8 @@ Video on how to run this examples after your setup flutter. Subscribe to the cha
 
 https://www.youtube.com/watch?v=rv6jMlH0Jho
 
+Check this link for more live coding demos: https://www.youtube.com/channel/UCgb-hGVxORJ2R_pt_bkelmw/
+
 Some Sample output: There are number of other examples added and those screenshots are not added. But the name of the project is added appropriately. 
 
 You can click on the image to go to the relevant project.
