@@ -1,0 +1,4 @@
+name: Example of Date Picker
+mode: flutter
+files:
+  - name: main.dart
