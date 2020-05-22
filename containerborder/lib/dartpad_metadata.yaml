@@ -1,0 +1,4 @@
+name: Example of Container Border
+mode: flutter
+files:
+  - name: main.dart
