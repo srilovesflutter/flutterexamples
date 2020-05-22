@@ -1,0 +1,4 @@
+name: Flutter example
+mode: flutter
+files:
+  - name: main.dart
