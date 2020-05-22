@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
           title: Text("Container as a Circle"),
         ),
         body: Container(
-          margin: EdgeInsets.all(100.0),
+          margin: EdgeInsets.all(50.0),
           decoration: BoxDecoration(
             color: Colors.orange,
             shape: BoxShape.circle
