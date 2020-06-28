@@ -29,16 +29,19 @@ UI reference - https://www.xdguru.com/cafit-gym-workout-mobile-ui-kit/
 
 Flights App
 
-UI reference - https://www.xdguru.com/flight-app-free-xd-ui-kit/
-
 [<img src="https://raw.githubusercontent.com/srilovesflutter/uichallenges/master/assets/FlightsUI_output.gif" height="600em" />](https://github.com/srilovesflutter/uichallenges/tree/master/flightsui)
 
+UI reference - https://www.xdguru.com/flight-app-free-xd-ui-kit/
 
 # Here are some basic example for you to begin with Flutter
 
-Some Sample output: There are number of other examples added and those screenshots are not added. But the name of the project is added appropriately. 
+Some Sample output: There are number of other examples added and those screenshots are not added. But the name of the project is added appropriately. No need to bother about the order you need to learn, because every example deals with its own problems.
 
 You can click on the image to go to the relevant project.
+
+## WaveAnimation Example
+
+[<img src="Images/waveanimation.gif" height="300em" />](/waveanimation)
 
 ## Clippath Example
 
