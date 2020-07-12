@@ -3,6 +3,8 @@ Here is your flutter startup pack with basic programs. enjoy..
 
 I've also written number of articles for the same on https://fluttercentral.com/
 
+If you are looking for a fluter development class room course pre recorded videos for free, check this our. https://fluttercentral.com/OnlineCourse
+
 # Show Support
 
 Don't forget to star ⭐ the repo 😉, it's completely FREE.
