@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// Inorder to run this, call MyGridView from main.dart file
+
 class MyGridView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

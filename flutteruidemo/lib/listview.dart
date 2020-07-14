@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// Inorder to run this, call MyListView from main.dart file
+
 class MyListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

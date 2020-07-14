@@ -1,47 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutteruidemo/listview.dart';
+import 'package:flutteruidemo/screens/listview.dart';
 
+// Main is the starting point of the program
 void main() {
   runApp(MyApp());
 }
+
+/// MaterialApp will add material designed to your app.
+/// Scaffold will make things much better.
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: MyListView(),
+        body: MyAppListView(),
       ),
-    );
-  }
-}
-
-class MyGridView extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return GridView(
-      gridDelegate:
-          SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
-      children: [
-        Container(
-          color: Colors.red,
-        ),
-        Container(
-          color: Colors.blue,
-        ),
-        Container(
-          color: Colors.green,
-        ),
-        Container(
-          color: Colors.amber,
-        ),
-        Container(
-          color: Colors.cyan,
-        ),
-        Container(
-          color: Colors.grey,
-        ),
-      ],
     );
   }
 }
