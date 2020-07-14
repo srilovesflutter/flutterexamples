@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
-class MyApp extends StatelessWidget {
+// Solve the image problem.
+// If possible try to get other images from the internet and try.
+
+class ListViewImageProblem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -9,7 +12,8 @@ class MyApp extends StatelessWidget {
         children: [
           ListTile(
               title: Text('Robo'),
-              leading: Icon(Icons.ac_unit),
+              leading: Image.network(
+                  'https://www.filmibeat.com/ph-big/2018/11/2-0_154337875810.jpg'),
               subtitle: Text('Excellent movie'),
               trailing:
                   RaisedButton(onPressed: () {}, child: Text('Buy Tickets'))),

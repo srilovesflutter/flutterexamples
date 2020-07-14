@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutteruidemo/screens/listview.dart';
+import 'package:flutteruidemo/listviewwithimageproblem.dart';
 
 // Main is the starting point of the program
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: MyAppListView(),
+        body: ListViewImageProblem(),
       ),
     );
   }
