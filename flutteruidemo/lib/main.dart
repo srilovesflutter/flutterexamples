@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutteruidemo/listviewwithimageproblem.dart';
 
 // Main is the starting point of the program
 void main() {
@@ -13,9 +12,33 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body: ListViewImageProblem(),
+        home: Scaffold(
+      body: MyDialogButton(),
+    ));
+  }
+}
+
+class MyDialogButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Container(
+        child: RaisedButton(
+          onPressed: () => showadialog(context),
+          child: Text('Click here to Open a Dialog'),
+        ),
       ),
     );
   }
+}
+
+showadialog(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (context) {
+      return AlertDialog(
+        title: Text('Hello World'),
+      );
+    },
+  );
 }
