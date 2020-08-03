@@ -1,41 +1,58 @@
 import 'package:flutter/material.dart';
-import 'package:flutteruidemo/navigation/bottomnavigation.dart';
 
-// Main is the starting point of the program
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(home: MyHomePage()));
 }
 
-/// MaterialApp will add material designed to your app.
-/// Scaffold will make things much better.
-
-class MyApp extends StatelessWidget {
+class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Scaffold(
-      bottomNavigationBar: MyBottomNavigation(),
+    return Scaffold(
+        appBar: AppBar(
+          title: Text('MyHomePage'),
+        ),
+        body: Center(
+            child: Container(
+          child: RaisedButton(
+            onPressed: () async {
+              //Navigator.push(context, MaterialPageRoute(builder: (context) => MySecondScreen() ,))
+              String msg = await Navigator.push(context, MaterialPageRoute(
+                builder: (context) {
+                  return MySecondScreen(
+                    text: 'Message from FirstScreen',
+                  );
+                },
+              ));
+              print(msg);
+            },
+            child: Text('Click here'),
+          ),
+        )));
+  }
+}
+
+class MySecondScreen extends StatelessWidget {
+  final String text;
+
+  const MySecondScreen({Key key, this.text}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
-        title: Text('AppBar Example'),
-        actions: [
-          IconButton(icon: Icon(Icons.home), onPressed: () {}),
-          IconButton(icon: Icon(Icons.home), onPressed: () {}),
-          IconButton(icon: Icon(Icons.home), onPressed: () {}),
-          PopupMenuButton(itemBuilder: (context) {
-            //List<PopupMenuEntry<dynamic>>
-            return [
-              PopupMenuItem(child: Text('Item1')),
-              PopupMenuItem(child: PopupMenuDivider()),
-              PopupMenuItem(child: Text('Item3')),
-              PopupMenuItem(
-                  child: CheckedPopupMenuItem(
-                checked: true,
-                child: Text('Item3'),
-              ))
-            ];
-          })
-        ],
+        title: Text('MySecondPage'),
       ),
-    ));
+      body: Center(
+        child: Container(
+          child: RaisedButton(
+            onPressed: () {
+              Navigator.pop(
+                  context, 'Message from SecondScreen back to FirstScreen');
+            },
+            child: Text(text),
+          ),
+        ),
+      ),
+    );
   }
 }
