@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "751461935737",
+    "firebase_url": "https://bandnamesurvey-5ed62.firebaseio.com",
+    "project_id": "bandnamesurvey-5ed62",
+    "storage_bucket": "bandnamesurvey-5ed62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751461935737:android:630fb87ebd87d9291dc2a8",
+        "android_client_info": {
+          "package_name": "com.example.dataexamples"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751461935737-crm87mljs4terqcgab4an9br41ope1hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd9NCZSRuEmVMmdAUNDUz-vI-EIe2EsKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751461935737-crm87mljs4terqcgab4an9br41ope1hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
